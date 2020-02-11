@@ -1,7 +1,7 @@
 # Add your code here
 class Dog 
   
-  
+  @@all = []
   
   attr_accessor :name
   
@@ -9,7 +9,7 @@ class Dog
   
   def initialize(name)
     @name = name
-    @@all << @name
+    @@all << name
 end
 
   def self.all
