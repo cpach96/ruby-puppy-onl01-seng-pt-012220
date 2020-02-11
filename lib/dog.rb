@@ -14,7 +14,11 @@ end
   
   def self.print_all
     
-    @@all.e
+    @@all.each do |d|
+      
+      puts d 
+      
+    end
     
   end
 
