@@ -14,7 +14,7 @@ end
     @@all
   end
   
-  def ssave
+  def save
     @@all << self
   end
   
