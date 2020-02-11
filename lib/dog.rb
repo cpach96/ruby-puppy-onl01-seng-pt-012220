@@ -14,6 +14,7 @@ end
   
   def self.print_all
     
+    @@all.e
     
   end
 
