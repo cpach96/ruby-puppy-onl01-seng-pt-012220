@@ -13,7 +13,7 @@ end
     @@all
   end
   
-  def save
+  def self.save
     @@all << self
   end
   
