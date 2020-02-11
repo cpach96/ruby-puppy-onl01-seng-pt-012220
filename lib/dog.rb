@@ -16,7 +16,7 @@ end
     
     @@all.each do |d|
       
-      puts d.name
+      puts d
       
     end
     
